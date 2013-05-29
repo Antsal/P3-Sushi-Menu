@@ -15,3 +15,9 @@ h2 {
 p {
 	
 }
+
+/* Resizes Website Logo, Note need to figure out how to get it to work inside nav bar properly still*/
+#logo {
+	height:40px;
+	width:169px;
+}
