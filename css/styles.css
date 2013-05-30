@@ -17,7 +17,39 @@ p {
 }
 
 /* Resizes Website Logo, Note need to figure out how to get it to work inside nav bar properly still*/
-#logo {
-	height:40px;
-	width:169px;
+
+#as_carousel img {
+	margin: 0 auto;
+}
+
+#as_carousel {
+	margin:0 50px;
+	background:black;
+}
+
+#logo_container {
+	width:90px;
+}
+
+#nav_links {
+	margin: 15px;
+}
+
+#menu {
+	margin: 0 50px;
+}
+
+.menu_dishes {
+	margin-top:50px;
+	margin-left:0;
+	border:1px solid black;
+}
+
+.menu_img_container {
+	margin:10px;
+}
+
+.dish_info {
+
+	margin: 60px 29px;
 }

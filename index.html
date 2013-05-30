@@ -8,24 +8,31 @@
 <link href="css/styles.css" rel="stylesheet" media="screen">
 </head>
 <body>
-<div class="container-fluid">
+<div class="container">
   <header class="row-fluid">
   
-  <div class="navbar">
+  <nav class="navbar">
   <div class="navbar-inner">
-    <a class="brand" href="#"><img src="img/Kan-Kai-Sushi-No-Background.png" alt="Kan Kai Sushi Logo" id="logo"/></a>
+    <div id="logo_container"><a class="brand" href="#"><img src="img/Kan-Kai-Sushi-No-Background.png" alt="Kan Kai Sushi Logo" id="logo"/></a></div>
+    <div id="nav_links">
     <ul class="nav">
-      <li class="active"><a href="#">Home</a></li>
+      <li class="divider-vertical"></li>
+      <li class="active"><a href="#home">Home</a></li>
+      <li class="divider-vertical"></li>
       <li><a href="#">Restaurant</a></li>
-      <li><a href="#">Menu</a></li>
+      <li class="divider-vertical"></li>
+      <li><a href="#menu">Menu</a></li>
+      <li class="divider-vertical"></li>
       <li><a href="#">Contact Us</a></li>
+      <li class="divider-vertical"></li>
     </ul>
+    </div>
   </div>
-</div>
+</nav>
   </header>
   
-<section class="row-fluid">
-<aside class="span4">
+<section>
+<aside id="as_carousel">
 <div id="myCarousel" class="carousel slide">
   <ol class="carousel-indicators">
     <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
@@ -35,7 +42,7 @@
   
   <!-- Carousel items -->
   <div class="carousel-inner">
-    <div class="active item"><img src="Unedited Assets/spiral-ecstacy.jpeg"/>
+    <div class="active item"><a href="#volcano_roll"><img src="Unedited Assets/spiral-ecstacy.jpeg"/></a>
     <div class="carousel-caption">
                       <p>The case of the Aquatimer Chronograph Edition Galapagos Islands has a vulcanized rubber coating</p>
                     </div>
@@ -61,53 +68,102 @@
 </section>
   
   
-  <section class="row-fluid">
+  <section >
   
-  <aside>
+  <aside class="row menu_dishes">
+  <div class="span3 menu_img_container">
+  <img src="http://placehold.it/220x220">
+  </div>
+  <div class="span7 dish_info">
   <h2>Banzai Roll</h2>
+  <hr />
   <p> $11.00
     Contains Raw Fish
     Shrimp, crab stick, and avocado rolled with salmon, yellowtail and tuna </p>
+   </div>
     </aside>
     
-  <aside>
-    <h2>Big Tempura Maki</h2>
-    <p> 
-    $10
-    Shrimp, crab stick, chef's choice of fish and avocado batter fried together and wrapped in rice and nori(edible seaweed)</p>
-  </aside>
-  
+      <aside class="row menu_dishes">
+  <div class="span3 menu_img_container">
+  <img src="http://placehold.it/220x220">
+  </div>
+  <div class="span7 dish_info">
+  <h2>Big Tempura Maki</h2>
+  <hr />
+  <p> $10 Shrimp, crab stick, chef's choice of fish and avocado batter fried together and wrapped in rice and nori(edible seaweed)</p>
+   </div>
+    </aside>
+    
+      <aside class="row menu_dishes">
+  <div class="span3 menu_img_container">
+  <img src="http://placehold.it/220x220">
+  </div>
+  <div class="span7 dish_info">
   <h2>Kanki By the Sea</h2>
-  <p> $10.00
-    Eel and avocado rolled in crap stick and tobiko, served on a bed of seaweed salad with a cream sauce </p>
+  <hr />
+  <p> $10.00 Eel and avocado rolled in crap stick and tobiko, served on a bed of seaweed salad with a cream sauce </p>
+   </div>
+    </aside>
     
+      <aside class="row menu_dishes">
+  <div class="span3 menu_img_container">
+  <img src="http://placehold.it/220x220">
+  </div>
+  <div class="span7 dish_info">
   <h2>Scallop Banazi Roll</h2>
-  <p> $12.00
-    Contains Raw Fish
-    Salmo, eel, scallops and avocado </p>
+  <hr />
+  <p> $12.00 Contains Raw Fish Salmo, eel, scallops and avocado </p>
+   </div>
+    </aside>
     
+      <aside class="row menu_dishes">
+  <div class="span3 menu_img_container">
+  <img src="http://placehold.it/220x220">
+  </div>
+  <div class="span7 dish_info">
   <h2>Sheila Maki</h2>
-  <p> $7.00
-    Spicy
-    Butterfish, crab stick, avocado, masago and spicy mayo in a reverse roll layered with tempura drops and seasoned sweet soy </p>
+  <hr />
+  <p> $7.00 Spicy Butterfish, crab stick, avocado, masago and spicy mayo in a reverse roll layered with tempura drops and seasoned sweet soy </p>
+   </div>
+    </aside>
     
+      <aside class="row menu_dishes">
+  <div class="span3 menu_img_container">
+  <img src="http://placehold.it/220x220">
+  </div>
+  <div class="span7 dish_info">
   <h2>Spiral Ecstasy Roll</h2>
-  <p> $11.00
-    Contains Raw Fish
-    Shrimp, crab stick, and avocado rolled with salmon, yellowtail and tuna </p>
+  <hr />
+  <p> $11.00 Contains Raw Fish Shrimp, crab stick, and avocado rolled with salmon, yellowtail and tuna </p>
+   </div>
+    </aside>
     
+      <aside class="row menu_dishes">
+  <div class="span3 menu_img_container">
+  <img src="http://placehold.it/220x220">
+  </div>
+  <div class="span7 dish_info">
   <h2>Tuna Rio</h2>
-  <p> $12.00
-    Contains Raw Fish
-    Shrimp, tempura, cream cheese, and spicy mayo in a reverse roll with tuna, baked and topped with hot sauce and jalapenos </p>
+  <hr />
+  <p> $12.00 Contains Raw Fish Shrimp, tempura, cream cheese, and spicy mayo in a reverse roll with tuna, baked and topped with hot sauce and jalapenos </p>
+   </div>
+    </aside>
     
-  <h2>Volcano Roll</h2>
-  <p> $11.50
-    Spicy
-    Crab stick, avocado and cream cheese rolled and covered with a unique spicy lava sauce </p>
+   <aside class="row menu_dishes" id="volcano_roll">
+  <div class="span3 menu_img_container">
+  <img src="http://placehold.it/220x220">
+  </div>
+  <div class="span7 dish_info">
+ <h2>Volcano Roll</h2>
+ <hr />
+  <p> $11.50 Spicy Crab stick, avocado and cream cheese rolled and covered with a unique spicy lava sauce </p>
   </section>
-  
-  <footer class="span12"> Footer Goes Here</footer>
+   </div>
+    </aside>
+
+<div>    
+<footer class="span12" > Footer Goes Here</footer>
+</div>
 </div>
 
 <script src="http://code.jquery.com/jquery.js"></script>
