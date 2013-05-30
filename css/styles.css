@@ -8,12 +8,12 @@ h1 {
 }
 
 h2 {
-	
+	font-family:"Myriad Pro"
 		
 }
 
 p {
-	
+	font-family:"Arial"
 }
 
 /* Resizes Website Logo, Note need to figure out how to get it to work inside nav bar properly still*/
@@ -51,5 +51,5 @@ p {
 
 .dish_info {
 
-	margin: 60px 29px;
+	margin: auto 10px;
 }
